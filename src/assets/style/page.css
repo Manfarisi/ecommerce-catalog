@@ -1,0 +1,123 @@
+:root {
+  --primary-color: #002772;
+  --main-font: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--main-font);
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #d6e6ff;
+  position: fixed;
+}
+.product {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  height: 80%;
+  box-shadow: 4px 5px 5px grey;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 50px;
+}
+.content {
+  display: flex;
+  align-items: flex-start;
+}
+.image {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-right: 50px;
+  padding-left: 10px;
+  margin-top: 50px;
+}
+
+.text {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.text2 {
+  display: flex;
+  flex-direction: column;
+  width: 63.5%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+img {
+  width: 250px;
+  height: 300px;
+}
+
+h2 {
+  font-family: var(--main-font);
+  color: var(--primary-color);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: var(--main-font);
+  color: #1e1e1e;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.text hr {
+  margin-bottom: 10px;
+}
+.text2 hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn .btn-buy {
+  padding: 7px 104px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border-radius: 4px;
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: 600;
+  border: 2px solid var(--primary-color);
+  margin-bottom: 20px;
+}
+.btn .btn-next {
+  margin-left: 15px;
+  padding: 7px 82px;
+  background-color: #ffffff;
+  color: var(--primary-color);
+  border-radius: 4px;
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: 600;
+  border: 2px solid var(--primary-color);
+  margin-bottom: 20px;
+}
+.btn .btn-next:hover {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  margin-bottom: 20px;
+}
